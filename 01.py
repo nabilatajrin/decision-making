@@ -42,7 +42,7 @@ def choose_best_action(total_scores):
     return best_action, total_scores[best_action]
 
 def display_decision(actions, total_scores):
-    print("🌸 Value Scorecard for Decisions:\n")
+    print("Value Scorecard for Decisions:\n")
     for action, factors in actions.items():
         print(f"Action: {action.upper()}")
         for factor, score in factors.items():
